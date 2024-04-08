@@ -28,6 +28,9 @@ tested-with:
   GHC == 8.0.2
   GHC == 7.10.3
 
+extra-source-files:
+  CHANGELOG.md
+
 source-repository head
   type: git
   location: https://github.com/haskell/tokenize
