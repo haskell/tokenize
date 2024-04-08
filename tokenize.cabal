@@ -56,7 +56,7 @@ benchmark bench
        tokenize
      , base
      , bytestring
-     , criterion < 1
+     , criterion >= 1
      , deepseq
      , filepath >= 1.3.0.1
      , split >= 0.1.2.3
