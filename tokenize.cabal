@@ -14,8 +14,9 @@ category:            Natural Language Processing
 build-type:          Simple
 
 tested-with:
+  GHC == 9.14.1
   GHC == 9.12.2
-  GHC == 9.10.2
+  GHC == 9.10.3
   GHC == 9.8.4
   GHC == 9.6.7
   GHC == 9.4.8
@@ -61,8 +62,6 @@ benchmark bench
      , bytestring
      , criterion >= 1
      , deepseq
-     , filepath >= 1.3.0.1
-     , split >= 0.1.2.3
      , text >= 0.11.3.0
 
    default-language: Haskell2010
